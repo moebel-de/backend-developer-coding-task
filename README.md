@@ -11,7 +11,7 @@ This means you should implement the following method (UML definition):
 All servers have the same type. This type defines the hardware resources each server provides: CPU, RAM, Storage.
 Each virtual machine is defined by the virtual hardware resources it needs (on a server): CPU, RAM, Storage.
 
-The algorithm for the virtual machine distribution should implement a 'first fit' strategy. 
+The algorithm for the virtual machine distribution have to implement a 'first fit' strategy. 
 This means there is no resource optimization or 'look back'.
 Virtual machines are always allocated on the current or the next server (in case of limited resources).
 
